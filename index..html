@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <title>
+        Form
+    </title>
+</head>
+<body>
+    <form action="index.php" method="post">
+        <label for="username">username:   
+        </label> 
+        <input type="text" id="username" minlength="6" placeholder="username" required>
+        
+        <br> Password: <input type="password"><br>
+        Email: <input type="email" placeholder="S@gmail.com"><br>
+        Phone: <input type="tel" placeholder="1234567891" pattern="[0-9]{10}" maxlength="10">
+        
+        <BR>Title: Mr<input type="radio" value="Mr." name="title">
+        Ms.<input type="radio" value="Ms." name="title">
+        phd<input type="radio" value="phd" name="title">
+        <br>
+        <label>Payment</label>
+        <select>
+            <option>visa </option>
+            <option>mastercard </option>
+            <option>giftcard </option>
+        </select>
+        <br>subscribe:<input type="checkbox" > not sub<input type="checkbox" >
+        <br>choose file:<input type="file"><br>
+
+
+        <br><input type="reset"><br>
+        <input type="submit"><br>
+
+
+    </form>
+
+</body>
+</html>
